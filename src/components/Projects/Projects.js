@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import circleverseImg from "../../Assets/Projects/circleverse.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import dataScienceImg from "../../Assets/Projects/data science.png";
 import covedex from "../../Assets/Projects/Covedex.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import buildflowImg from "../../Assets/Projects/buildflow.png";
+import toolsgalaxyImg from "../../Assets/Projects/toolsgalaxy.png";
 
 function Projects() {
   return (
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={circleverseImg}
               isBlog={false}
               title="CircleVerse"
               description="CircleVerse is an AI-powered social networking platform that allows users to create private digital circles for real-world communities such as family, friends, and work teams. Built with Next.js 15, Firebase, and Google’s Gemini AI, it offers secure authentication, real-time chat, personalized feeds, and intelligent AI features like conversation summaries and event recommendations. The platform focuses on privacy, collaboration, and meaningful online connections through a clean and responsive UI."
@@ -66,7 +66,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={toolsgalaxyImg}
               isBlog={false}
               title="ToolsGalaxy"
               description="ToolsGalaxy is a collection of 1000+ AI-powered and utility tools built for students, developers, and creators. It includes AI image generation, text utilities, PDF tools, converters, editors, and productivity utilities — all designed with clean UI, fast performance, and modern web technologies"
