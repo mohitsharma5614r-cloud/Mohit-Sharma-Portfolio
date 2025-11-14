@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/MOHIT-SHARMA.pdf";
+import pdf from "../../Assets/Mohit Sharma CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -35,7 +35,7 @@ function ResumeNew() {
           <Button
             variant="primary"
             href={resumeUrl}
-            download="Mohit Sharma.pdf"
+            download="Mohit Sharma CV.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
